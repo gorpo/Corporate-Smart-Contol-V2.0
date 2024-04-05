@@ -1,0 +1,87 @@
+/* global */
+/* VT323*/
+
+@import url('https://fonts.googleapis.com/css?family=Share Tech Mono');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+.login {
+  margin:0 auto;
+  max-width:500px;
+  margin-top: 14%;
+}
+
+.login-header {
+  color:#fff;
+  text-align:center;
+  font-size:300%;
+}
+
+.logo {
+  float: center;
+  width: 100%;
+  padding: 0px;
+  margin: 5px;
+}
+
+.login-form {
+  box-sizing:border-box;
+  padding-top:15px;
+  padding-bottom:10%;
+  margin:1% auto;
+  text-align:center;
+}
+
+.login input[type="text"],
+.login input[type="email"],
+.login input[type="password"] {
+  max-width:400px;
+  width: 70%;
+  line-height:3em;
+  font-family: 'Share Tech Mono', sans-serif;
+  font-size: 15px;
+  margin:0.3em 0em;
+  border-radius:5px;
+  border:2px solid #521afd;
+  outline:none;
+  padding-left:10px;
+}
+
+.btnlogar {
+  background-color: #521afd;
+  font-family: 'Share Tech Mono', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  max-width:400px;
+  width: 70%;
+  line-height:2em;
+  margin:0.3em 0em;
+  border-radius:5px;
+  border:2px solid #f2f2f2;
+  outline:none;
+  padding-left:10px;
+}
+.btnlogar:hover {
+  background-color: #5018e0;
+
+  font-family: 'Share Tech Mono', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  max-width:400px;
+  width: 70%;
+  line-height:2em;
+  margin:0.3em 0em;
+  border-radius:5px;
+  border:2px solid #f2f2f2;
+  outline:none;
+  padding-left:10px;
+}
+
+.titulo {
+  font-family: 'Share Tech Mono', sans-serif;
+  font-size: 25px;
+  color: #521afd;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
